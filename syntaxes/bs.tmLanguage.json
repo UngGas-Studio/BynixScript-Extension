@@ -1,0 +1,58 @@
+{
+    "scopeName": "source.bs",
+    "patterns": [
+        {
+            "name": "comment.line.double-slash.bs",
+            "match": "#*$"
+        },
+        {
+            "name": "comment.block.bs",
+            "begin": "\\*\\*",
+            "end": "\\*\\*"
+        },
+        {
+            "name": "keyword.control.bs",
+            "match": "\\b(if|elif|else|end:|match|case|break|default|to|in|of)\\b"
+        },
+        {
+            "name": "keyword.declaration.bs",
+            "match": "\\b(var|const|func|for|forEach|return|class|extends|new)\\b"
+        },
+        {
+            "name": "support.function.bs",
+            "match": "\\b(print|touch|confirm|ask|change|delay|repeat)\\b"
+        },
+        {
+            "name": "support.variable.property.bs",
+            "match": "\\b(value|design|listener|createElement|addElement|getElement|getAllElement|rand|roundDown|roundUp|maxOf|minOf|manageText|get|int|str|num|process|map|reduce|filter|includes)\\b"
+        },
+        {
+            "name": "variable.language",
+            "match": "\\b(null|true|false|undifined)\\b"
+        },
+        {
+            "name": "constant.numeric.bs",
+            "match": "\\b[0-9]+\\b"
+        },
+        {
+            "name": "keyword.module.bs",
+            "match": "\\b(export|import|)\\b"
+        },
+        {
+            "name": "variable.other.bs",
+            "match": "\\b(is_value|is_action|is_have|is_design|is_includes|is_matched|is_end|is_start|require|isStr|isNum|constructor|speak)\\b"
+        },
+        {
+            "name": "string.quoted.double.bs",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.bs",
+                    "match": "\\\\."
+                }
+            ]
+        }
+    ],
+    "repository": {}
+}
