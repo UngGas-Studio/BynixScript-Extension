@@ -40,7 +40,7 @@
         },
         {
             "name": "variable.other.bs",
-            "match": "\\b(is_value|is_action|is_have|is_design|is_includes|is_matched|is_end|is_start|require|isStr|isNum|constructor|speak)\\b"
+            "match": "\\b(is_value|is_action|is_have|is_design|is_includes|is_matched|is_end|is_start|require|isStr|isNum|isNull|isUndef|isBool|isFunc|isBig|isSym|isObj|isType|constructor|speak)\\b"
         },
         {
             "name": "string.quoted.double.bs",

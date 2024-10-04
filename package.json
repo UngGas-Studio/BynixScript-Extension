@@ -2,7 +2,7 @@
     "name": "bynixscript-extension",
     "displayName": "BynixScript Extension",
     "description": "Added hightlighter, code snippet, and code formatter for BynixScript",
-    "version": "0.1.0",
+    "version": "0.1.1-next",
     "icon": "icon.png",
     "main": "extension.js",
     "publisher": "UngGasStudio",
@@ -19,9 +19,14 @@
         "languages": [
             {
                 "id": "bs",
-                "aliases": ["BS", "bs"],
+                "aliases": [
+                    "BynixScript",
+                    "bs"
+                ],
                 "extensions": [
-                    ".bs"
+                    ".bs",
+                    ".bynixscript",
+                    ".mbs"
                 ],
                 "configuration": "./language-configuration.json"
             }
